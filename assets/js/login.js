@@ -31,6 +31,7 @@ $(function () {
     })
 
     // 注册 ajax请求
+    // 按钮点击或者表单被执行提交时触发，其中回调函数只有在验证全部通过后才会进入
     $('#form_reg').on('submit', function (e) {
         e.preventDefault();
         const inputParams = {
